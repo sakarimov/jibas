@@ -27,7 +27,7 @@
 	Untuk daerah Indonesa bagian tengah (WITA) gunakan Asia/Makassar
 	Untuk daerah Indonesa bagian timur (WIT) gunakan Asia/Jayapura
 */
-define('JIBAS_TIMEZONE','Asia/Jakarta');
+define('JIBAS_TIMEZONE', getenv("JIBAS_TIMEZONE"));
 
 date_default_timezone_set(JIBAS_TIMEZONE);
 ?>

@@ -22,8 +22,8 @@
  **[N]**/ ?>
 <?php
 function http_request(
-    $verb = 'GET',             /* HTTP Request Method (GET and POST supported) */
     $ip,                       /* Target IP/Hostname */
+    $verb = 'GET',             /* HTTP Request Method (GET and POST supported) */
     $port = 80,                /* Target TCP port */
     $uri = '/',                /* Target URI */
     $getdata = array(),        /* HTTP GET Data ie. array('var1' => 'val1', 'var2' => 'val2') */

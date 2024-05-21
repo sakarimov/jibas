@@ -23,8 +23,8 @@
 <?php
 require_once(__DIR__ . '/include/config.php');
 
-session_name("jbsakad");
 session_start();
+session_name("jbsakad");
 
 if (isset($_SESSION['namasimaka'])) {
     include(__DIR__ . "/index2.php");

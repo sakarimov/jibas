@@ -23,15 +23,15 @@
 <?php
 
 /* Alamat basis data MySQL JIBAS */
-$db_host='127.0.0.1:3307';
+$db_host='database';
 
 /* User basis data MySQL JIBAS */
 $db_user='root';
 
 /* Password basis data MySQL JIBAS */
-$db_pass='rahasia';
+$db_pass=getenv("MYSQL_ROOT_PASSWORD");
 
 /* Basis data default JIBAS */
-$db_name='jbsumum';
+$db_name=getenv("MYSQL_DATABASE");
 
 ?>

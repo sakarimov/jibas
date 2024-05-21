@@ -22,7 +22,7 @@
  **[N]**/ ?>
 <?php
 /* Awal tahun pendataan menggunakan SISFO JIBAS */
-$G_START_YEAR='2011';
+$G_START_YEAR=getenv("G_START_YEAR");
 
 /* Alamat Server aplikasi SISFO JIBAS 
      Alamat ini digunakan untuk menampilkan header cetak di laporan-laporan yang disediakan SISFO JIBAS 
@@ -32,7 +32,7 @@ $G_START_YEAR='2011';
 $G_SERVER_ADDR='localhost/jibas';
 
 /* Sistem operasi yang digunakan ( win | lin ) */
-$G_OS='win';
+$G_OS='lin';
 
 /* Lokasi Sekolah */
 $G_LOKASI="Bandung";

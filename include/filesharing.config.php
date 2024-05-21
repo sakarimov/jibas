@@ -24,11 +24,11 @@
 /* Direktori tempat penyimpanan file-file FileSharing
    Direktori slashes di sistem operasi Linux menggunakan /
    sedangkan di Windows bisa menggunakan \\ dan /   */
-$FILESHARE_UPLOAD_DIR = "C:\\YIM\\JIBAS\\xampp\\htdocs\\filesharing\\";
+$FILESHARE_UPLOAD_DIR = "/var/www/html/jibas/filesharing";
  
 /* Alamat web based dari direktori tempat penyimpanan file-file FileSharing 
    PERHATIAN:
      UNTUK PENGGUNAAN MULTIUSER di LOCAL AREA NETWORK
      JANGAN MENGGUNAKAN localhost TETAPI GUNAKAN IP ADDRESS atau HOSTNAME */
-$FILESHARE_ADDR = "http://localhost/filesharing/";
+$FILESHARE_ADDR = "http://localhost/jibas/filesharing/";
 ?>
